@@ -1,0 +1,35 @@
+$capitalLaters: uppercase;
+$flowerFont: 'Indie Flower', cursive;
+
+.uppercase{
+    text-transform: $capitalLaters;
+}
+
+header{
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.1em;
+
+    ul{
+        color: rgb(252, 194, 3);
+
+        a{
+            color: red;
+        }
+    }
+
+}
+
+.font{
+    font-family: 'Bangers', cursive;
+   }
+
+footer{
+    float: right;
+}
+.fontFlower{
+    font-family: $flowerFont;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: red;
+}

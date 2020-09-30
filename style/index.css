@@ -1,0 +1,33 @@
+.uppercase {
+  text-transform: uppercase;
+}
+
+header {
+  font-weight: bold;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.1em;
+}
+
+header ul {
+  color: #fcc203;
+}
+
+header ul a {
+  color: red;
+}
+
+.font {
+  font-family: 'Bangers', cursive;
+}
+
+footer {
+  float: right;
+}
+
+.fontFlower {
+  font-family: "Indie Flower", cursive;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: red;
+}
+/*# sourceMappingURL=index.css.map */
