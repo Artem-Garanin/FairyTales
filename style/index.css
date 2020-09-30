@@ -4,20 +4,26 @@
 
 header {
   font-weight: bold;
-  font-family: 'Indie Flower', cursive;
-  font-size: 1.1em;
+  font-family: "Indie Flower", cursive;
+  font-size: 1.5em;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 header ul {
-  color: #fcc203;
+  color: #f78e05;
 }
 
 header ul a {
   color: red;
 }
 
+header li {
+  background-color: white;
+}
+
 .font {
-  font-family: 'Bangers', cursive;
+  font-family: 'Cinzel Decorative', cursive;
 }
 
 footer {
@@ -29,5 +35,28 @@ footer {
   font-size: 1.5em;
   font-weight: bold;
   color: red;
+}
+
+.orangeColor {
+  color: #f78e05;
+}
+
+aside li {
+  color: #f78e05;
+}
+
+.backgroundColorHeader {
+  background-color: white;
+}
+
+.beforeMain {
+  margin-left: 0;
+  margin-right: 0;
+  min-width: 220px;
+  max-width: 2560px;
+}
+
+.beforeMainTextAlign {
+  text-align: center;
 }
 /*# sourceMappingURL=index.css.map */

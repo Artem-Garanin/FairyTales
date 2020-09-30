@@ -1,5 +1,6 @@
 $capitalLaters: uppercase;
 $flowerFont: 'Indie Flower', cursive;
+$orangeColor: rgb(247, 142, 5);
 
 .uppercase{
     text-transform: $capitalLaters;
@@ -7,21 +8,25 @@ $flowerFont: 'Indie Flower', cursive;
 
 header{
     font-weight: bold;
-    font-family: 'Indie Flower', cursive;
-    font-size: 1.1em;
-
+    font-family: $flowerFont;
+    font-size: 1.5em;
+    margin-top: 5px;
+    margin-bottom: 5px;
     ul{
-        color: rgb(252, 194, 3);
-
+        color: $orangeColor;
+        
         a{
             color: red;
         }
+    }
+    li{
+        background-color: white;
     }
 
 }
 
 .font{
-    font-family: 'Bangers', cursive;
+    font-family: 'Cinzel Decorative', cursive;
    }
 
 footer{
@@ -32,4 +37,23 @@ footer{
     font-size: 1.5em;
     font-weight: bold;
     color: red;
+}
+.orangeColor{color: $orangeColor;}
+
+aside{
+    li{color: $orangeColor;}
+}
+.backgroundColorHeader{
+    background-color: white;
+}
+
+.beforeMain{
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 220px;
+    max-width: 2560px;
+    
+}
+.beforeMainTextAlign{
+    text-align: center;
 }
