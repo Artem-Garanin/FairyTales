@@ -2,24 +2,20 @@
   text-transform: uppercase;
 }
 
-header {
+nav {
   font-weight: bold;
   font-family: "Indie Flower", cursive;
   font-size: 1.5em;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-header ul {
+nav ul {
   color: #f78e05;
 }
 
-header ul a {
+nav ul a {
   color: red;
-}
-
-header li {
-  background-color: white;
 }
 
 .font {
@@ -28,6 +24,8 @@ header li {
 
 footer {
   float: right;
+  margin-right: 25px;
+  margin-bottom: 5px;
 }
 
 .fontFlower {
@@ -45,10 +43,6 @@ aside li {
   color: #f78e05;
 }
 
-.backgroundColorHeader {
-  background-color: white;
-}
-
 .beforeMain {
   margin-left: 0;
   margin-right: 0;
@@ -56,7 +50,52 @@ aside li {
   max-width: 2560px;
 }
 
-.beforeMainTextAlign {
-  text-align: center;
+.headMenu {
+  margin: 35px 10px;
+  font-size: 1em;
+}
+
+#navBackGroundColor0 {
+  background-color: white;
+}
+
+#navBackGroundColor1 {
+  background-color: white;
+}
+
+#navBackGroundColor2 {
+  background-color: white;
+}
+
+#navBackGroundColor3 {
+  background-color: white;
+}
+
+header div {
+  background-color: white;
+}
+
+#headerBackGroundColor {
+  border: 0;
+  background-color: white;
+}
+
+#hr1 {
+  border: 6px solid lightblue;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-left: 5px;
+}
+
+#hr2 {
+  border: 6px solid lightblue;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-left: 5px;
+}
+
+#hr3 {
+  border: 9px solid lightblue;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=index.css.map */

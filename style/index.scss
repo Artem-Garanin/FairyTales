@@ -6,12 +6,13 @@ $orangeColor: rgb(247, 142, 5);
     text-transform: $capitalLaters;
 }
 
-header{
+nav{
     font-weight: bold;
     font-family: $flowerFont;
     font-size: 1.5em;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
     ul{
         color: $orangeColor;
         
@@ -19,10 +20,7 @@ header{
             color: red;
         }
     }
-    li{
-        background-color: white;
-    }
-
+   
 }
 
 .font{
@@ -31,6 +29,8 @@ header{
 
 footer{
     float: right;
+    margin-right: 25px;
+    margin-bottom: 5px;
 }
 .fontFlower{
     font-family: $flowerFont;
@@ -43,17 +43,54 @@ footer{
 aside{
     li{color: $orangeColor;}
 }
-.backgroundColorHeader{
-    background-color: white;
-}
 
 .beforeMain{
     margin-left: 0;
     margin-right: 0;
     min-width: 220px;
     max-width: 2560px;
+}
+
+.headMenu{
+    margin: 35px 10px;
+    font-size: 1em;
+}
+#navBackGroundColor0{
+    background-color: white;
+}
+#navBackGroundColor1{
+    background-color: white;
+}
+#navBackGroundColor2{
+    background-color: white;
+}
+#navBackGroundColor3{
+    background-color: white;
+}
+header{
+    div{
+        background-color: white;
+    }
     
 }
-.beforeMainTextAlign{
-    text-align: center;
+#headerBackGroundColor{
+    border: 0;
+    background-color: white;
 }
+#hr1{
+    border: 6px solid lightblue;
+    border-radius: 5px; 
+    margin-right: 15px;
+    margin-left: 5px;
+}
+#hr2{
+    border: 6px solid lightblue;
+    border-radius: 5px; 
+    margin-right: 15px;
+    margin-left: 5px;   
+}
+#hr3{
+    border: 9px solid lightblue;
+    border-radius: 5px;   
+}
+
