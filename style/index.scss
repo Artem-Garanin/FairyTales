@@ -93,4 +93,24 @@ header{
     border: 9px solid lightblue;
     border-radius: 5px;   
 }
+// About.html  CSS
+p{
+    margin: auto 30%;   
+    max-width: 1200px;
+    text-align: center;
+    
+}
+#email{
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+.footerGoUp{
+    font-size: 1.5em;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    font-weight: bold;
+    a{
+        color: red;
+    }
+}
 
