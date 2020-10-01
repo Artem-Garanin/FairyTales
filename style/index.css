@@ -99,7 +99,7 @@ header div {
   border-radius: 5px;
 }
 
-p {
+.forAboutText {
   margin: auto 30%;
   max-width: 1200px;
   text-align: center;
