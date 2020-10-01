@@ -2,6 +2,11 @@ $capitalLaters: uppercase;
 $flowerFont: 'Indie Flower', cursive;
 $orangeColor: rgb(247, 142, 5);
 
+main{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 .uppercase{
     text-transform: $capitalLaters;
 }
@@ -43,7 +48,9 @@ footer{
 aside{
     li{color: $orangeColor;}
 }
-
+.margin{   
+    margin-right: 60px;
+}
 .beforeMain{
     margin-left: 0;
     margin-right: 0;
