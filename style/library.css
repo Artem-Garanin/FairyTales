@@ -3,60 +3,40 @@ body {
 }
 
 .flex-row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row;
-          flex-flow: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-flow: row;
+  align-items: center;
   border-radius: 8px;
 }
 
 .flex-column {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
+  flex-flow: column;
 }
 
-.center {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+center {
+  align-items: center;
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .list {
   border-radius: 3px;
   overflow: hidden;
 }
-
 .list .card {
   cursor: pointer;
   min-width: 700px;
   margin-bottom: 10px;
-  -webkit-perspective: 600px;
-          perspective: 600px;
-  -webkit-transition: all 0.1s;
+  perspective: 600px;
   transition: all 0.1s;
   background-color: #fefefe;
-  -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   height: 90px;
 }
-
 .list .card .bottom {
   height: 0px;
   overflow: hidden;
@@ -65,35 +45,25 @@ body {
   color: #444;
   font-weight: normal;
 }
-
 .list .card.open {
   padding: 30px;
   height: auto;
   border-radius: 8px;
 }
-
 .list .card.open .bottom {
   margin-top: 10px;
   height: 100%;
   overflow: visible;
 }
-
 .list .card.open .book {
-  -webkit-transform: rotateY(50deg);
-          transform: rotateY(50deg);
-  -webkit-box-shadow: -10px 10px 10px 2px rgba(0, 0, 0, 0.2), -2px 0px 0px 0px #888;
-          box-shadow: -10px 10px 10px 2px rgba(0, 0, 0, 0.2), -2px 0px 0px 0px #888;
-  -webkit-transition: all 0.5s;
+  transform: rotateY(50deg);
+  box-shadow: -10px 10px 10px 2px rgba(0, 0, 0, 0.2), -2px 0px 0px 0px #888;
   transition: all 0.5s;
-  -webkit-transition-delay: 0.05s;
-          transition-delay: 0.05s;
+  transition-delay: 0.05s;
 }
-
 .list .card.open .info {
-  -webkit-transform: translate(0, -10px);
-          transform: translate(0, -10px);
+  transform: translate(0, -10px);
 }
-
 .list .card button.simple {
   cursor: pointer;
   color: #1dad1d;
@@ -102,57 +72,45 @@ body {
   border-radius: 8px;
   background-color: #fefefe;
   padding: 70px 40px;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
   font-weight: bold;
   font-size: xx-large;
-  -webkit-transition: all 0.1s;
   transition: all 0.1s;
 }
-
 .list .card button.simple:hover {
-  -webkit-box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.3);
-  -webkit-transform: translate(0, -2px);
-          transform: translate(0, -2px);
+  box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.3);
+  transform: translate(0, -2px);
   background-color: #b2eeb0;
 }
-
 .list .card button.simple a {
   color: inherit;
   text-decoration: none;
 }
-
 .list .card .book {
-  -webkit-transition: all 0.5s;
   transition: all 0.5s;
   width: 120px;
-  -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
   overflow: hidden;
 }
-
 .list .card .info {
-  -webkit-transition: all 0.2s;
   transition: all 0.2s;
   min-width: 200px;
   padding: 0px 30px;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
   font-weight: bold;
 }
-
 .list .card .info .title {
   font-size: 1.5em;
   color: red;
   letter-spacing: 3px;
 }
-
 .list .card .info .author {
   font-size: 20px;
   font-weight: normal;
   color: #1dad1d;
 }
-
 .list .card .group {
   margin-left: auto;
 }
+
 /*# sourceMappingURL=library.css.map */
