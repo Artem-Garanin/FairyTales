@@ -1,0 +1,10 @@
+body {
+    background-color: lightcyan;
+  }
+
+
+.title, .author, .summary {
+    font-size: 1.5em;
+    color: red;
+    letter-spacing: 3px;
+}
