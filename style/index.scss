@@ -29,7 +29,9 @@ nav{
     }
    
 }
-button{background-color: black;}
+
+button{background-color: $orangeColor;}
+
 .font{
     font-family: 'Cinzel Decorative', cursive;
    }
@@ -121,6 +123,9 @@ header{
     background-color: white;
 }
 #menuItem3{
+    background-color: white;
+}
+#menuItem4{
     background-color: white;
 }
 // About.html  CSS
