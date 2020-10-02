@@ -1547,6 +1547,10 @@ i.BRicon {
 .BRtoolbarRight {
   text-align: right;
   flex: none;
+  /*display: none;*/
+}
+.share {
+  display: none;
 }
 
 @media (max-width: 800px) {
