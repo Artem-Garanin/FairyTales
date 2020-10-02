@@ -14,11 +14,9 @@ nav {
   margin-top: 0;
   margin-bottom: 0;
 }
-
 nav ul {
   color: #f78e05;
 }
-
 nav ul a {
   color: red;
 }
@@ -28,7 +26,7 @@ button {
 }
 
 .font {
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: "Cinzel Decorative", cursive;
 }
 
 footer {
@@ -160,8 +158,8 @@ header {
   margin-right: 25px;
   font-weight: bold;
 }
-
 .footerGoUp a {
   color: red;
 }
+
 /*# sourceMappingURL=index.css.map */
