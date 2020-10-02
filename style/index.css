@@ -13,7 +13,6 @@ nav {
   font-size: 1.5em;
   margin-top: 0;
   margin-bottom: 0;
-  background-color: transparent;
 }
 
 nav ul {
@@ -22,7 +21,10 @@ nav ul {
 
 nav ul a {
   color: red;
-  background-color: transparent;
+}
+
+button {
+  background-color: black;
 }
 
 .font {

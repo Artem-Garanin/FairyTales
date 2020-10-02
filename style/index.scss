@@ -17,19 +17,19 @@ nav{
     font-size: 1.5em;
     margin-top: 0;
     margin-bottom: 0;
-    background-color: transparent;
+   // background-color: transparent;
     
     ul{
         color: $orangeColor;
         
         a{
             color: red;
-            background-color: transparent;
+          //  background-color: transparent;
         }
     }
    
 }
-
+button{background-color: black;}
 .font{
     font-family: 'Cinzel Decorative', cursive;
    }
