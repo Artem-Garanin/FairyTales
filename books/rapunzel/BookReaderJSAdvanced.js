@@ -100,7 +100,7 @@ var options = {
   mobileNavTitle: 'Rapunzel',
 
   // Override the path used to find UI images
-  imagesBaseURL: '../BookReader/images/',
+  imagesBaseURL: '../../BookReader/images/',
 
   getEmbedCode: function(frameWidth, frameHeight, viewParams) {
       return "Embed code not supported in bookreader demo.";
