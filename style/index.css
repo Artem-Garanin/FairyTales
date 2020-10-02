@@ -15,6 +15,10 @@ main {
   text-transform: uppercase;
 }
 
+.colorForAsideNames {
+  color: #f78e05;
+}
+
 nav {
   font-weight: bold;
   font-family: "Indie Flower", cursive;

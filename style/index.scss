@@ -15,7 +15,9 @@ main{
 .uppercase{
     text-transform: $capitalLaters;
 }
-
+.colorForAsideNames{
+    color: $orangeColor;
+}
 nav{
     font-weight: bold;
     font-family: $flowerFont;
