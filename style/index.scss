@@ -6,7 +6,12 @@ main{
     margin-left: 15px;
     margin-right: 15px;
 }
-
+#navBrandNameColor1{
+    color: $orangeColor;
+}
+#navBrandNameColor2{
+    color: $orangeColor;
+}
 .uppercase{
     text-transform: $capitalLaters;
 }
@@ -30,7 +35,7 @@ nav{
    
 }
 
-button{background-color: $orangeColor;}
+button{background-color: red;}
 
 .font{
     font-family: 'Cinzel Decorative', cursive;

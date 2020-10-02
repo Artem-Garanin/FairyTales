@@ -1,35 +1,37 @@
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Read To Be Smart</title>
     <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
     <link rel="stylesheet" href="style/index.css">
-  <link rel="stylesheet" href="style/index.css">
-  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&display=swap" rel="stylesheet">
-  <link rel="icon" href="./images/icon.jpg" type="image">
-  </head>
-  <body>
-      <nav>
-    <div class="top-bar" id="navBackGroundColor0">
-      <div class="top-bar-left" id="navBackGroundColor1">
-        <ul>
-          <li class="menu-text uppercase" id="navBackGroundColor2">read to be smart</li>
-        </ul>
-        <hr id="hr1">
-      </div>
-      <div class="top-bar-right">
-       <ul class="menu" id="navBackGroundColor3">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#">Fairy Tales</a></li>
-        </ul>
-        <hr id="hr2">
-      </div>
-    </div>
-      </nav>
+    <link rel="stylesheet" href="style/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/icon.jpg">
+</head>
+<body>
+
+    <nav> 
+      <div class="row">
+        <div class="title-bar " data-responsive-toggle="responsive-menu" data-hide-for="medium">
+            <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+            <div class="title-bar-title uppercase" id="navBrandNameColor1">read to be smart</div>
+        </div>
+        <div class="top-bar" id="responsive-menu">
+          <div class="title-bar top-bar-left uppercase show-for-medium" id="navBrandNameColor2">read to be smart</div>
+          <div class="top-bar-right" id="top-bar-right">
+                    <ul class="dropdown horisontal menu" data-dropdown-menu id="menuItem1">
+                        <li id="menuItem2"><a href="index.html">Home</a></li>
+                        <li id="menuItem3"><a href="about.html">About</a></li>
+                        <li id="menuItem4"><a href="library.html">Fairy Tales</a></li>
+                    </ul>
+          </div>
+        </div>
+      </div>  
+    </nav>
+
     <header>
     <div class="callout medium primary" id="headerBackGroundColor">
       <div class="row column text-center beforeMain">
@@ -38,7 +40,7 @@
       </div>
     </div>
   </header>
-  </body>
+  
     <main class="forAboutText">
         <p><strong>READ TO BE SMART</strong> <br> Is a non-profit organization dedicated to providing the best treasury of stories and reader's theater scripts which are kid-tested and provide children with meaningful experiences that will last a lifetime.</p>
             <div><br>
@@ -78,4 +80,10 @@
         <footer class="footerGoUp">
             <a href="about.html">Go up</a>
         </footer>
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+        <script>
+            $(document).foundation();
+        </script>
+      </body>     
 </html>
