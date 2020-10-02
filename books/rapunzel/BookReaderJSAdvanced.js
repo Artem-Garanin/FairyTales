@@ -4,6 +4,9 @@
 // Copyright(c)2008-2009 Internet Archive. Software license AGPL version 3.
 
 // Create the BookReader object
+function instantiateBookReader(selector, extraOptions) {
+    selector = selector || '#BookReader';
+    extraOptions = extraOptions || {};
 var options = {
   // Total number of leafs
   getNumLeafs: function() {
@@ -81,7 +84,7 @@ var options = {
 
   // Book title and the URL used for the book title link
   bookTitle: 'Rapunzel',
-  bookUrl: 'rapunzel.html',
+  bookUrl: '../../library.html',
   bookUrlText: 'Back to Books',
   bookUrlTitle: 'This is the book URL title',
   // thumbnail is optional, but it is used in the info dialog
@@ -109,7 +112,7 @@ var options = {
   ui: 'full', // embed, full (responsive)
 
 };
+$.extend(options, extraOptions);
 var br = new BookReader(options);
-
-// Let's go!
 br.init();
+}
