@@ -1,0 +1,61 @@
+@mixin accordion-item {}
+.accordion-item > a {
+    @include accordion-item();
+    background-color:rgb(199, 212, 216);
+    font-family: "Indie Flower", cursive;
+    font-size: 4rem;
+    color: rgb(255, 123, 0);
+    clear: both;
+}
+
+@mixin accordion-title {}
+.accordion-title {
+    @include accordion-title();
+    border: solid white 5px;
+    border-radius: 8px;
+}
+
+@mixin accordion-content {}
+.accordion-content > .book {
+    width: 300px;
+    float: left;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px 2px rgba(0,0,0,.2);
+}
+.accordion-content > .title {
+    color: red;
+    font-family: "Indie Flower", cursive;
+    font-size: 3rem;
+}
+.accordion-content > .author {
+    color: orange;
+    font-family: "Indie Flower", cursive;
+    font-size: 2rem;
+}
+.accordion-content > .summary {
+    color:gray;
+    font-family: "Indie Flower", cursive;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin: 20px 10px;
+}
+.accordion-content > .button {
+    font-family: "Indie Flower", cursive;
+    background-color: lightblue;
+    width: 68%;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px 2px rgba(0,0,0,.2);
+}
+.button > a {
+    color: #1585cf;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.footerGoUp {
+    font-family: "Indie Flower", cursive;
+}
+
+
+
