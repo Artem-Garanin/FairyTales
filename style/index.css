@@ -26,15 +26,21 @@ nav {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 nav ul {
   color: #f78e05;
 }
+
 nav ul a {
   color: red;
 }
 
+button {
+  background-color: lightblue;
+}
+
 .font {
-  font-family: "Cinzel Decorative", cursive;
+  font-family: 'Cinzel Decorative', cursive;
 }
 
 footer {
@@ -144,8 +150,8 @@ header {
   font-weight: bold;
   font-family: "Indie Flower", cursive;
 }
+
 .footerGoUp a {
   color: red;
 }
-
 /*# sourceMappingURL=index.css.map */
