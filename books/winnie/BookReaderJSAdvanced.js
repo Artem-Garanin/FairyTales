@@ -3,9 +3,11 @@
 var lang = localStorage.getItem("lang");
 if (lang === 'fr') {
     var bookUrlVar = '../../library_fr.html'
+    var bookUrlTextVar = 'Retour &#224 la biblioth&#232que'
 }
 else {
     bookUrlVar = '../../library.html'
+    bookUrlTextVar = 'Back to library'
 }
 //
 // Copyright(c)2008-2009 Internet Archive. Software license AGPL version 3.
@@ -92,7 +94,7 @@ function instantiateBookReader(selector, extraOptions) {
         // Book title and the URL used for the book title link
         bookTitle: 'Winnie the Pooh',
         bookUrl: bookUrlVar,
-        bookUrlText: 'Back to Books',
+        bookUrlText: bookUrlTextVar,
         bookUrlTitle: 'This is the book URL title',
         // thumbnail is optional, but it is used in the info dialog
         thumbnail: 'img/Page001.jpg',

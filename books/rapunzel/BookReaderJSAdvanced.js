@@ -5,9 +5,11 @@
 var lang = localStorage.getItem("lang");
 if (lang === 'fr') {
     var bookUrlVar = '../../library_fr.html'
+    var bookUrlTextVar = 'Retour &#224 la biblioth&#232que'
 }
 else {
     bookUrlVar = '../../library.html'
+    bookUrlTextVar = 'Back to library'
 }
 // Create the BookReader object
 function instantiateBookReader(selector, extraOptions) {
@@ -91,7 +93,7 @@ var options = {
   // Book title and the URL used for the book title link
   bookTitle: 'Rapunzel',
     bookUrl: bookUrlVar,
-  bookUrlText: 'Back to Books',
+  bookUrlText: bookUrlTextVar,
   bookUrlTitle: 'This is the book URL title',
   // thumbnail is optional, but it is used in the info dialog
   thumbnail: 'img/Page001.jpg',
