@@ -37,7 +37,7 @@
     <main>
         <header class="text-center">           
             <h1 class="uppercase font ">fairy tales </h1>
-            <h6 class="uppercase font "><a href="index_fr.html">french</a></h6>
+            <h6 class="uppercase font "><a id="lang" href="index_fr.html">french</a></h6>
             <hr id="hr">
         </header>
         <div class="row" id="content">
@@ -146,6 +146,11 @@
 <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
 <script>
     $(document).foundation();
+    localStorage.setItem("lang", "en");
+    document.getElementById("lang").onclick = function () {
+        // Writing the value
+        localStorage.setItem("lang", "fr");
+    };
 </script>
 </body>
 </html>

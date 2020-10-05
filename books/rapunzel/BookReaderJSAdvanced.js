@@ -2,7 +2,13 @@
 // This file shows the minimum you need to provide to BookReader to display a book
 //
 // Copyright(c)2008-2009 Internet Archive. Software license AGPL version 3.
-
+var lang = localStorage.getItem("lang");
+if (lang === 'fr') {
+    var bookUrlVar = '../../library_fr.html'
+}
+else {
+    bookUrlVar = '../../library.html'
+}
 // Create the BookReader object
 function instantiateBookReader(selector, extraOptions) {
     selector = selector || '#BookReader';
@@ -84,7 +90,7 @@ var options = {
 
   // Book title and the URL used for the book title link
   bookTitle: 'Rapunzel',
-  bookUrl: '../../library.html',
+    bookUrl: bookUrlVar,
   bookUrlText: 'Back to Books',
   bookUrlTitle: 'This is the book URL title',
   // thumbnail is optional, but it is used in the info dialog
